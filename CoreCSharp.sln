@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleIO", "BasicCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{F2B521B6-B026-4BC0-982B-01FE687CC0F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationConstructs", "IterationConstructs\IterationConstructs.csproj", "{550A339A-E533-468F-B083-EE01CF989DDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2B521B6-B026-4BC0-982B-01FE687CC0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2B521B6-B026-4BC0-982B-01FE687CC0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2B521B6-B026-4BC0-982B-01FE687CC0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550A339A-E533-468F-B083-EE01CF989DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550A339A-E533-468F-B083-EE01CF989DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550A339A-E533-468F-B083-EE01CF989DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550A339A-E533-468F-B083-EE01CF989DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
