@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypes", "BasicData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationConstructs", "IterationConstructs\IterationConstructs.csproj", "{550A339A-E533-468F-B083-EE01CF989DDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionConstructs", "DecisionConstructs\DecisionConstructs.csproj", "{0A9547FE-28A9-4602-B49D-67A9F420FDA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{550A339A-E533-468F-B083-EE01CF989DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550A339A-E533-468F-B083-EE01CF989DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550A339A-E533-468F-B083-EE01CF989DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9547FE-28A9-4602-B49D-67A9F420FDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9547FE-28A9-4602-B49D-67A9F420FDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9547FE-28A9-4602-B49D-67A9F420FDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9547FE-28A9-4602-B49D-67A9F420FDA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
