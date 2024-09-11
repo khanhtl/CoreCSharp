@@ -5,17 +5,19 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCSharpApp", "SimpleCSharpApp\SimpleCSharpApp.csproj", "{D8B121C7-031D-47E8-A559-016BBBC99943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConsoleIO", "BasicConsoleIO\BasicConsoleIO.csproj", "{D1B7B2DF-FFCD-4B1C-AF0A-D66AE6C09EE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicConsoleIO", "BasicConsoleIO\BasicConsoleIO.csproj", "{D1B7B2DF-FFCD-4B1C-AF0A-D66AE6C09EE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{F2B521B6-B026-4BC0-982B-01FE687CC0F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTypes", "BasicDataTypes\BasicDataTypes.csproj", "{F2B521B6-B026-4BC0-982B-01FE687CC0F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationConstructs", "IterationConstructs\IterationConstructs.csproj", "{550A339A-E533-468F-B083-EE01CF989DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IterationConstructs", "IterationConstructs\IterationConstructs.csproj", "{550A339A-E533-468F-B083-EE01CF989DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionConstructs", "DecisionConstructs\DecisionConstructs.csproj", "{0A9547FE-28A9-4602-B49D-67A9F420FDA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecisionConstructs", "DecisionConstructs\DecisionConstructs.csproj", "{0A9547FE-28A9-4602-B49D-67A9F420FDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F1BA9A8D-416A-4F49-8ED1-956EC384C165}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{F1BA9A8D-416A-4F49-8ED1-956EC384C165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{41A25ED2-CB09-4940-A110-FD312320F685}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{41A25ED2-CB09-4940-A110-FD312320F685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{9C4C70ED-D6CB-4920-8B07-A14ACDD81A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{41A25ED2-CB09-4940-A110-FD312320F685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41A25ED2-CB09-4940-A110-FD312320F685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41A25ED2-CB09-4940-A110-FD312320F685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4C70ED-D6CB-4920-8B07-A14ACDD81A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4C70ED-D6CB-4920-8B07-A14ACDD81A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4C70ED-D6CB-4920-8B07-A14ACDD81A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4C70ED-D6CB-4920-8B07-A14ACDD81A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
