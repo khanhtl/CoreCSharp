@@ -74,6 +74,7 @@ namespace OOP
             set { _currPay = value; }
         }
         private EmployeePayTypeEnum _payType;
+        public string SocialSecurityNumber { get; set; }
         public EmployeePayTypeEnum PayType
         {
             get => _payType;
@@ -145,5 +146,21 @@ namespace OOP
     {
         // Field data
         // Properties
+        public Employee(string name, int age, int id, float pay, string empSsn, EmployeePayTypeEnum payType)
+        {
+            Name = name;
+            Id = id;
+            Age = age;
+            Pay = pay;
+            SocialSecurityNumber = empSsn;
+            PayType = payType;
+        }
+        // Derived classes can now directly access this information.
+        protected string EmpName;
+        protected int EmpId;
+        protected float CurrPay;
+        protected int EmpAge;
+        protected string EmpSsn;
+        protected EmployeePayTypeEnum EmpPayType;
     }
 }
