@@ -97,7 +97,7 @@ namespace OOP
             _currPay = pay;
         }
         // Methods.
-        public void GiveBonus(float amount)
+        public virtual void GiveBonus(float amount)
         {
             Pay = this switch
             {
@@ -110,7 +110,7 @@ namespace OOP
                 _ => Pay += 0
             };
         }
-        public void DisplayStats()
+        public virtual void DisplayStats()
         {
             Console.WriteLine("Name: {0}", _empName);
             Console.WriteLine("ID: {0}", _empId);

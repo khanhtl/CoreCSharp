@@ -79,7 +79,7 @@ namespace OOP
     //}
 
     // Managers need to know their number of stock options.
-    class Manager : Employee
+    partial class Manager : Employee
     {
         public int StockOptions { get; set; }
         public Manager() { }
@@ -91,7 +91,7 @@ namespace OOP
 
     }
     // Salespeople need to know their number of sales.
-    class SalesPerson : Employee
+    partial class SalesPerson : Employee
     {
         public int SalesNumber { get; set; }
         public SalesPerson() { }
