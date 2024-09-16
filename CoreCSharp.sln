@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{34156A2B-9297-4E1B-A4A8-992C149D4BAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuredExceptionHandling", "StructuredExceptionHandling\StructuredExceptionHandling.csproj", "{67749D2D-A81D-4F7C-9D4C-A6868A4F8140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{34156A2B-9297-4E1B-A4A8-992C149D4BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34156A2B-9297-4E1B-A4A8-992C149D4BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34156A2B-9297-4E1B-A4A8-992C149D4BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67749D2D-A81D-4F7C-9D4C-A6868A4F8140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67749D2D-A81D-4F7C-9D4C-A6868A4F8140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67749D2D-A81D-4F7C-9D4C-A6868A4F8140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67749D2D-A81D-4F7C-9D4C-A6868A4F8140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
